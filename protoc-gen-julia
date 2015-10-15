@@ -1,0 +1,3 @@
+#!/bin/sh
+#
+docker run -i --rm oeuftete/protoc-gen-julia:0.3.11-0.0.6
