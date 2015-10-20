@@ -4,6 +4,6 @@ MAINTAINER oeuftete@gmail.com
 
 RUN julia -e 'Pkg.update(); \
               Pkg.add("ProtoBuf"); \
-              Pkg.checkout("ProtoBuf", "postfix_for_module_names")'
+              Pkg.pin("ProtoBuf", v"0.1.3");'
 
 CMD ["sh", "/root/.julia/v0.4/ProtoBuf/plugin/protoc-gen-julia"]
