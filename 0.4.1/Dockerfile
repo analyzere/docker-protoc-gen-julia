@@ -1,4 +1,4 @@
-FROM julia:0.4.0
+FROM julia:0.4.1
 
 MAINTAINER oeuftete@gmail.com
 
