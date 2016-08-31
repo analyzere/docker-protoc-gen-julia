@@ -1,6 +1,6 @@
-FROM julia:0.4.1
+FROM julia:0.4.6
 
-MAINTAINER oeuftete@gmail.com
+MAINTAINER techops@analyzere.com
 
 RUN julia -e 'Pkg.update(); \
               Pkg.add("ProtoBuf");'

@@ -8,5 +8,5 @@ Use it by making a very simple `protoc-gen-julia` shell script somewhere and add
 ```sh
 #!/bin/sh
 #
-docker run -i --rm oeuftete/protoc-gen-julia:latest
+docker run -i --rm analyzere/protoc-gen-julia:latest
 ```
