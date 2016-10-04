@@ -1,4 +1,4 @@
-FROM julia:latest
+FROM julia:0.5.0
 
 MAINTAINER techops@analyzere.com
 
